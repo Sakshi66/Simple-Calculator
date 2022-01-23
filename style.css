@@ -1,0 +1,139 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: white;
+	background-image: url(./img/bigimg.jpg);
+	/* justify-content: center;
+	align-items: center;
+	display: flex; */
+	text-align: center;
+}
+
+/* -----------------------------------------------------
+HERO
+----------------------------------------------------- */
+#hero{
+
+}
+
+#container{
+	width: 1000px;
+	height:  550px;
+	margin: 20px auto;
+}
+
+/* -----------------------------------------------------
+CALCULATOR
+----------------------------------------------------- */
+
+#calc{
+	width: 320px;
+	height: 520px;
+	background-color: #eaedef;
+	margin: auto;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* -----------------------------------------------------
+Result
+----------------------------------------------------- */
+
+#result{
+	height: 120px;
+}
+
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+}
+
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+
+/* -----------------------------------------------------
+Keyboard
+----------------------------------------------------- */
+
+#keyboard{
+	height: 400px;
+}
+
+button{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+button:nth-child(4){
+
+}
+
+#clear{
+	background-color: lightgrey;
+}
+#backspace{
+	background-color: lightgrey;
+}
+.modulo{
+	font-size: 20px;
+	background-color: #ffd500;
+}
+.division{
+	font-size: 20px;
+	background-color: #20b2aa;
+}
+.multiplication{
+	font-size: 20px;
+	background-color: #ffa500;
+}
+.minus{
+	font-size: 20px;
+	background-color: #f08080;
+}
+.plus{
+	font-size: 20px;
+	background-color: #7d93e0;
+}
+.equals{
+	font-size: 20px;
+	background-color: #94771f;
+}
+
+.operator{
+	cursor: pointer;
+}
+
+.number{
+	background-color: #eaedef;
+	cursor: pointer;
+}
+
+#empty{
+
+}
+
+.empty{
+	background-color: #eaedef;
+}
+
+.operator:active, .number:active{
+	font-size: 13px;
+}
+
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
